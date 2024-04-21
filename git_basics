@@ -1,0 +1,49 @@
+git checkout master/main
+
+
+Run git merge story/frogs-and-ox ==> merge the feature branch
+
+Check git log now and it should show commit message as Merge branch 'story/frogs-and-ox'
+
+git log --oneline
+
+
+A merge conflict happens when two branches both modify the same region of a file and are subsequently merged. Git can't know which of the changes to keep, and thus needs human intervention to resolve the conflict.
+
+A remote repository in Git, also called a remote, is a Git repository that's hosted on the Internet or another network.
+
+git checkout -b story/fox-and-grapes; git add .; git commit -m 'Added fox-and-grapes story'
+
+git push origin story/fox-and-grapes
+
+Pull request
+
+Follow below steps to create PR
+
+- Login to Git Portal UI with max user
+- Go to the story-blog repository
+- Click on Pull requests
+- Click on New Pull request
+- Put PR pull from branch: story/fox-and-grapes
+- Put PR merge into branch: master
+- Click on New Pull Request
+- Add PR title as Added fox-and-grapes story
+- Click on Create Pull request
+
+
+Fork
+
+Click on Git Portal UI to access git UI
+Login with sarah user with password: Sarah_pass123
+- Go to story-blog repo
+- Click on Settings -> Collaborators and check permissions of jon user
+
+ways to do is make changes and commint and raise PR
+
+Go to sarah/story-blog or jon/story-blog repo.
+
+Click on Pull requests -> New Pull Request
+
+Select Merge into(destination) branch: sarah:master and Pull from(source) branch: jon:master
+
+To raise a PR click on New Pull Request-> Create Pull Request while keeping other options default
